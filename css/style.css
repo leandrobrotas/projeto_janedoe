@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -72,62 +72,65 @@ main#about p cite {
   line-height: 40px;
 }
 
+/* home v2 */
+
 section#concept,
 section#songs,
-main#contact{
-    width: 900px;
-    margin: 30px auto;
+main#contact {
+  width: 900px;
+  margin: 30px auto;
 }
 
-section#songs img{
-    width: 100%;
+section#songs img {
+  width: 100%;
 }
 
-.duas-colunas{
-    overflow: hidden;
+.duas-colunas {
+  overflow: hidden;
 }
 
-.duas-colunas > div{
-    width: 50%;
-    float: left;
+.duas-colunas>div {
+  width: 50%;
+  float: left;
 }
 
-section#songs ol li{
-    padding: 10px 0;
+section#songs ol li {
+  padding: 15px 0;
 }
 
-section#songs ol li strong{
-    color: orange;
+section#songs ol li strong {
+  color: orange;
 }
 
-section#form-mapa iframe{
-    width: 100%;
-    height: 400px;
+/* contact v2 */
+
+section#form-mapa iframe {
+  width: 100%;
+  height: 400px;
 }
 
 form input[type="text"],
 form textarea {
   width: 100%;
   padding: 5px;
-  margin: 2px 0 10px;
 }
 
 form .form-group {
   margin: 0 0 10px;
 }
 
-form textarea{
-    resize: none;
-    height: 100px;
+form textarea {
+  resize: none;
+  height: 100px;
 }
 
-form button{
-    border: none;
-    background-color: orange;
-    color: white;
-    padding: 5px 20px; 
+form button {
+  border: none;
+  padding: 5px 20px;
+  background-color: orange;
+  color: white;
 }
 
-.mapa{
-    padding-left: 30px;
+.mapa {
+  padding-left: 20px;
 }
